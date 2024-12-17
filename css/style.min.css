@@ -1556,35 +1556,35 @@ a h6 {
 }
 
 .news__img {
-  background: url(../../img/IMG-20241017-WA0021.webp) center center/cover no-repeat;
+  background: url(img/IMG-20241017-WA0021.webp) center center/cover no-repeat;
   width: 100%;
   height: 28em;
   position: relative;
 }
 
 .news__img_1 {
-  background: url(../../img/IMG-20241017-WA0022.webp) center center/cover no-repeat;
+  background: url(img/IMG-20241017-WA0022.webp) center center/cover no-repeat;
   width: 100%;
   height: 28em;
   position: relative;
 }
 
 .news__img_2 {
-  background: url(../../img/IMG-20241017-WA0025.webp) center center/cover no-repeat;
+  background: url(img/IMG-20241017-WA0025.webp) center center/cover no-repeat;
   width: 100%;
   height: 28em;
   position: relative;
 }
 
 .news__img_3 {
-  background: url(../../img/IMG-20241017-WA0032.webp) center center/cover no-repeat;
+  background: url(img/IMG-20241017-WA0032.webp) center center/cover no-repeat;
   width: 100%;
   height: 28em;
   position: relative;
 }
 
 .news__img_4 {
-  background: url(../../img/IMG-20241017-WA0042.webp) center center/cover no-repeat;
+  background: url(img/IMG-20241017-WA0042.webp) center center/cover no-repeat;
   width: 100%;
   height: 28em;
   position: relative;
@@ -1701,7 +1701,7 @@ a h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../../img/biljana-martinic-IGJ_21drT3g-unsplash.webp) center center/cover no-repeat;
+  background: url(img/biljana-martinic-IGJ_21drT3g-unsplash.webp) center center/cover no-repeat;
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -1717,7 +1717,7 @@ a h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../../img/biljana-martinic-IGJ_21drT3g-unsplash.webp) center center/cover no-repeat;
+  background: url(img/biljana-martinic-IGJ_21drT3g-unsplash.webp) center center/cover no-repeat;
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -2904,7 +2904,7 @@ a h6 {
   }
 
   .carousel {
-    background: url(../img/12.png) 50% 50% no-repeat;
+    background: url(img/12.png) 50% 50% no-repeat;
     background-size: cover;
     width: 100%;
     display: inline-flex;
@@ -3401,7 +3401,7 @@ a h6 {
 }
 
 .product__item_img {
-  background: url("../img/soroush-zargar-UlxfP1zrnPc-unsplash.jpg") center center/cover no-repeat;
+  background: url("img/soroush-zargar-UlxfP1zrnPc-unsplash.jpg") center center/cover no-repeat;
   width: 40px;
   height: 39px;
   border-radius: 50%;
