@@ -1,0 +1,121 @@
+
+@use 'variable';
+@use 'block/header';
+@use 'block/about';
+@use 'block/grapes';
+@use 'block/wine';
+@use 'block/slik';
+@use 'block/carousel';
+@use 'block/award';
+@use 'block/footer';
+@use 'block/new';
+@use 'block/gallery';
+@use 'block/media';
+@use 'block/products';
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+ 
+  font-size: 16px; /* Базовый размер шрифта для всех элементов */
+}
+
+body {
+  color: #474442;
+  line-height: 1.6;
+  height: 100%;
+  width: 100%;
+  
+}
+
+$darkened-blu: #F3EFDC;
+$light-beige:#EAAA1B;
+$footer:#F8C126;
+$Title:#593034;
+main{
+    background: url(../images/Background.webp)  no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: #FFFEF8;
+}
+// @font-face {
+//     font-family: 'Regular';
+//     src: url(../fonts/Bilargy/Regular.otf);
+// }
+
+@font-face {
+    font-family: 'FiraGO-Regular_0';
+    src: url(../font/FiraGO-Regular_0.otf);
+
+}
+
+@font-face {
+    font-family: 'bpg-web-001-caps-webfon';
+    src: url(../font/bpg-web-001-caps-webfont.ttf);
+}
+
+@font-face {
+    font-family: 'FiraGO-Medium';
+    src: url(../font/FiraGO-Medium.otf) ;
+}
+
+// @font-face {
+//     font-family: 'GettingEverything';
+//     src: url(../fonts/GettingEverything.otf);
+// }
+
+
+a {
+    color: $Title;
+    text-decoration: none;
+    text-align: -webkit-center;
+
+}
+
+a:host {
+    color:$Title;
+}
+
+
+    h2 ,h5 {
+        // font-family: 'Ana-Kalandadze';
+        font-family: 'bpg-web-001-caps-webfon';
+        // font-size: calc(3rem + .9vw);
+        color: $Title;
+        text-transform: uppercase;
+        font-size: 50px;
+        // color: $darkened-blu
+
+    }
+
+    h5 {
+        // font-family: 'Nigelina-Regular';
+        font-family: "bpg-web-001-caps-webfon";
+        text-transform: uppercase;
+        font-size: 19px;
+    }
+
+    // h6,h5{
+    //     font-family: 'BPG Mrgvlovani Caps';
+    //     font-size: 24px;
+
+    // }
+    h6 {
+        font-size: clamp(15px, 1vw, 19px);
+        // font-family: 'Nigelina-Regular';
+        font-family: "bpg-web-001-caps-webfon";
+        text-transform: uppercase;
+        color: $Title;
+    }
+
+    p {
+        font-family: 'FiraGO-Medium';
+        color:$light-beige;
+    }
+

@@ -1,0 +1,89 @@
+.products{
+    margin-top: 180px;
+    h1{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    &__itoms{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        gap: 80px;
+        a{
+            display: inline-block;
+            width: 45px;
+            border-radius:50%;
+            background-color: #fff9ee;
+            text-align: center;
+           
+        }
+        &_img{
+            margin-top: 2px;
+            
+        }
+       
+      
+    }
+}
+.product__item{
+    outline: 2px solid  #5ca96b;
+    height: 45px;
+    width: 168px;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr );
+    a{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    p{
+        grid-column: 2;
+        margin-top: 9px;
+    }
+    img{
+        width: 40px;
+    }
+    #a_none{
+        border: none;
+        border-radius:0;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0);
+        color:#000;
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-top: 9px;
+        margin-left: 18px;
+        position: relative;
+        z-index: 1;
+    }
+    &:hover{
+        background-color: #5ca96b;
+        color: #fff;
+    }
+}
+.maps{
+    margin-top: 130px;
+}
+#a_none{
+    border: none;
+    border-radius:0;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color:#000;
+   &:hover{
+        color: #fff;
+    }
+}
+.products__itoms_img_2{
+    margin-top: 8px;
+}
+.product__item_img{
+    background: url("../img/soroush-zargar-UlxfP1zrnPc-unsplash.jpg")center (center/cover) no-repeat;
+    width: 40px; 
+    height: 39px;
+    border-radius: 50%;
+    margin-top: -28px;
+    margin-left: 5px;
+
+}
